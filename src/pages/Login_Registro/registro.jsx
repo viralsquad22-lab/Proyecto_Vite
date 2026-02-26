@@ -2,12 +2,12 @@
 
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom"; 
-import { useAuthContext } from './context/AuthContext';
-import logo from "./logo.svg";
+import { useAuthContext } from '../../context/AuthContext';
+import logo from "../../logo.svg";
 
 
-import "./styles/base.css";
-import "./styles/registro.css";
+import "../../styles/base.css";
+import "../../styles/registro.css";
 
 
 function Registro() {

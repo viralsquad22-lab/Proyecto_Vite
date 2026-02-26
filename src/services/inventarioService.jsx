@@ -1,7 +1,7 @@
 // 🟢 src/pages/InventarioMovimientos.jsx (NUEVO COMPONENTE PARA EL MÓDULO)
 
 import React, { useState, useEffect } from "react";
-import { getInventoryProducts, registerInventoryMovement } from '../services/inventarioService';
+import { getInventoryProducts, registerInventoryMovement } from './inventarioService';
 // Importa el contexto para el usuario y el token, y los estilos
 import { useAuthContext } from '../context/AuthContext'; 
 import "../styles/Lista_productos.css"; // Reutiliza un estilo de tabla si existe

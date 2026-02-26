@@ -4,10 +4,10 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 //estilos 
 
-import "./styles/base.css";
-import "./styles/login.css";
-import logo from "./logo.svg";
-import { useAuthContext } from './context/AuthContext'; 
+import "../../styles/base.css";
+import "../../styles/login.css";
+import logo from "../../../public/logo2.png";
+import { useAuthContext } from '../../context/AuthContext'; 
 
 
 
